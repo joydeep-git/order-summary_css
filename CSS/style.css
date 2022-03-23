@@ -113,7 +113,7 @@ body{
 }
 .card_payment-tag:hover{
     cursor: pointer;
-    background-color: var(--clr-Desaturated-blue);
+    opacity: 0.8;
 }
 .card_payment-cancel{
     color: var(--clr-Desaturated-blue);
