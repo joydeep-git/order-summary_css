@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    font-size: 16px;
+}
+:root{
+    --clr-Pale-blue: #e0e8ff;
+    --clr-Bright-blue: #3829e0;
+    --clr-Very-pale-blue: #f5f7ff;
+    --clr-Desaturated-blue: #7280a7;
+    --clr-Dark-blue: #1f2f56;
+    --font-main: 'red hat display', sans-serif ;
+}
+body{
+    font-family: var(--font-main);
+    background-image: url(/images/pattern-background-mobile.svg), var(--clr-Pale-blue);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    display: grid;
+    place-items: center;
+}
