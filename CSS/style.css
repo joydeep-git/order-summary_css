@@ -21,7 +21,8 @@ body{
     font-family: var(--font-main);
     background-image: url(/images/pattern-background-mobile.svg), var(--clr-Pale-blue);
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: contain;
+    min-height: 100vh;
     display: grid;
     place-items: center;
 }
