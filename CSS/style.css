@@ -77,9 +77,10 @@ body {
   line-height: 0.8rem;
   font-size: 0.8rem;
   padding-left: 0px;
-  margin-left: -2.5rem;
+  margin-left: -3.3rem;
 }
 .card_plan-tag {
+  font-size: 0.95rem;
   font-weight: 800;
 }
 .card_price-tag {
@@ -134,10 +135,26 @@ body {
   opacity: 1;
 }
 
-@media (max-width:450) {
+@media screen and (max-width: 450px)
+{
+  .card_details{
+    padding: 0 1.5rem 0 1.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .card_middle-part{
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  .card_plan-price{
+    margin-left: -1.9rem;
+  }
 
-    .card_payment-tag{
-        font-size: 1.2rem;
-        color: red;
-    }
+
+
+
+
+
+
+
 }
